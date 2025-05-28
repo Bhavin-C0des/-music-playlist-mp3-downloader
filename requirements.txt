@@ -1,0 +1,5 @@
+spotipy==2.25.1        # To use the Spotify API to fetch songs and their metadata from playlists
+yt-dlp==2025.5.22      # To download the audio of the song from YouTube music as an mp3 file
+eyed3==0.9.8           # To tag MP3 files with metadata and album art
+requests==2.32.3       # To download album cover images from URLs given from spotipy
+python-dotenv==1.1.0   # To load Spotify API keys and other sensitive data securely from a .env file
